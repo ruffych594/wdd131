@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+/* header */
+
+header {
+    background-color: #1f537d;
+    color: white;
+    text-align: center;
+}
+
+#course-title {
+    display: block;
+    padding: 18px;
+    font-size: 1.4rem;
+}
+
+/* navigation */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+}
+
+nav a:hover {
+    background-color: #555;
+    text-decoration: underline;
+}
+
+/* main */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+
+}
+
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: white;
+}
+.card h2 {
+    background-color: #1f537d;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+.card p {
+    padding: 0 15px;
+    line-height: 1.5;
+}
+
+.card ul {
+    padding: 160px 40px;
+    line-height: 1.5;
+}
+
+/* image */
+.card img {
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    width: 150px;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 150px;
+    gap: 15px;
+    align-items: center;
+    padding: 15px;
+}
+
+.about-content p {
+    padding: 0;
+    margin: 0;
+}
+
+.about-content img {
+    width: 150px;
+    height: auto;
+    margin: 0;
+}
+
+/* h1 */
+main h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2rem;
+}
+
+/* zimbabwe   */
+.country {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 15px;
+    align-items: center;
+    padding: 15px;
+}
+
+.country h3 {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #d3d3d3;
+    width: 70%;
+}
+
+.country img {
+    width: 150px;
+    margin: 0;
+}
+
+.country p {
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* footer  */
+footer {
+    background-color: #1f537d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px;
+}
