@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="A responsive album featuring temples from around the world."
+    />
+    <meta name="author" content="Rufaro Chirume" />
+
+    <title>Temple Album</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/temples.css" />
+    <link rel="stylesheet" href="styles/temples-large.css" />
+
+    <script src="scripts/temples.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="header-container">
+        <span class="site-title">Temple Album</span>
+
+        <button id="menu-button" aria-label="Open navigation menu">☰</button>
+
+        <nav>
+          <a href="#" class="active">Home</a>
+          <a href="#">Old</a>
+          <a href="#">New</a>
+          <a href="#">Large</a>
+          <a href="#">Small</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <h1>Temple Album</h1>
+
+      <div class="temple-grid">
+        <figure>
+          <img
+            src="images/salt-lake-temple-under-50kb.jpg"
+            alt="Salt Lake Temple"
+            loading="lazy"
+          />
+          <figcaption>Salt Lake Temple</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/harare.jpg"
+            alt="Harare Zimbabwe Temple"
+            loading="lazy"
+          />
+          <figcaption>Harare Zimbabwe Temple</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/johannesburg.jpg"
+            alt="Johannesburg South Africa Temple"
+            loading="lazy"
+          />
+          <figcaption>Johannesburg South Africa Temple</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/nairobi.jpg"
+            alt="Nairobi Kenya Temple"
+            loading="lazy"
+          />
+          <figcaption>Nairobi Kenya Temple</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/london.jpg"
+            alt="London England Temple"
+            loading="lazy"
+          />
+          <figcaption>London England Temple</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/paris.jpg"
+            alt="Paris France Temple"
+            loading="lazy"
+          />
+          <figcaption>Paris France Temple</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/rome.jpg" alt="Rome Italy Temple" loading="lazy" />
+          <figcaption>Rome Italy Temple</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/madrid.jpeg"
+            alt="Madrid Spain Temple"
+            loading="lazy"
+          />
+          <figcaption>Madrid Spain Temple</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/accra.jpeg"
+            alt="Accra Ghana Temple"
+            loading="lazy"
+          />
+          <figcaption>Accra Ghana Temple</figcaption>
+        </figure>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="currentyear"></span> Rufaro Chirume | Zimbabwe</p>
+      <p id="lastModified"></p>
+    </footer>
+  </body>
+</html>

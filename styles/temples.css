@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #222;
+  background-color: #f5f1ea;
+}
+
+header {
+  background-color: #17324d;
+  color: white;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-title {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#menu-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+nav {
+  display: none;
+  flex-direction: column;
+  width: 100%;
+}
+
+nav.open {
+  display: flex;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.8rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+nav a:hover {
+  background-color: #d9a441;
+  color: #17324d;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  color: #17324d;
+  margin-bottom: 1.5rem;
+}
+
+.temple-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+figure {
+  margin: 0;
+  background-color: white;
+  padding: 0.8rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+figure img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+  border-radius: 5px;
+}
+figcaption {
+  text-align: center;
+  padding: 0.8rem 0.2rem 0.3rem;
+  font-weight: 600;
+  color: #17324d;
+}
+
+footer {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #17324d;
+  color: white;
+}
+
+footer p {
+  margin: 0.4rem;
+}
