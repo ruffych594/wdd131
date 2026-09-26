@@ -1,60 +1,81 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A quick look at Zimbabwe: key facts and the current weather in Harare.">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A quick look at Zimbabwe: key facts and the current weather in Harare."
+    />
+    <meta name="author" content="Rufaro Chirume" />
     <title>Zimbabwe | Country Page</title>
-    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles/place.css">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles/place.css" />
     <script src="scripts/place.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Zimbabwe</h1>
+      <h1>Zimbabwe</h1>
     </header>
 
     <main>
-        <!-- Hero image: small file on phones, wider file from 700px up -->
-        <picture class="hero">
-            <source media="(min-width: 700px)" srcset="images/zimbabwe-large.webp" width="1400" height="520">
-            <img src="images/zimbabwe-small.webp" width="640" height="420"
-                 alt="Victoria Falls pouring over a basalt cliff into a misty gorge">
-        </picture>
+      <!-- Hero image: small file on phones, wider file from 700px up -->
+      <picture class="hero">
+        <source
+          media="(min-width: 700px)"
+          srcset="images/zimbabwe-large.webp"
+          width="1400"
+          height="520"
+        />
+        <img
+          src="images/zimbabwe-small.webp"
+          width="640"
+          height="420"
+          alt="Victoria Falls pouring over a basalt cliff into a misty gorge"
+        />
+      </picture>
 
-        <section class="data" aria-labelledby="data-heading">
-            <h2 id="data-heading">Data</h2>
-            <dl>
-                <dt>Capital:</dt>
-                <dd>Harare</dd>
-                <dt>Area:</dt>
-                <dd>390,757 km&sup2;</dd>
-                <dt>Population:</dt>
-                <dd>about 16 million</dd>
-                <dt>Languages:</dt>
-                <dd>16 official, including Shona, Ndebele and English</dd>
-                <dt>Landmark:</dt>
-                <dd>Victoria Falls</dd>
-                <dt>Also known for:</dt>
-                <dd>Great Zimbabwe ruins and Hwange National Park</dd>
-            </dl>
-        </section>
+      <section class="data" aria-labelledby="data-heading">
+        <h2 id="data-heading">Data</h2>
+        <dl>
+          <dt>Capital:</dt>
+          <dd>Harare</dd>
+          <dt>Area:</dt>
+          <dd>390,757 km&sup2;</dd>
+          <dt>Population:</dt>
+          <dd>about 16 million</dd>
+          <dt>Languages:</dt>
+          <dd>16 official, including Shona, Ndebele and English</dd>
+          <dt>Landmark:</dt>
+          <dd>Victoria Falls</dd>
+          <dt>Also known for:</dt>
+          <dd>Great Zimbabwe ruins and Hwange National Park</dd>
+        </dl>
+      </section>
 
-        <section class="weather" aria-labelledby="weather-heading">
-            <h2 id="weather-heading">Weather</h2>
-            <!-- SVG icon: shown on mobile only -->
-            <img class="weather-icon" src="images/weather.svg" width="64" height="64" alt="Partly cloudy">
-            <p><strong>Location:</strong> Harare</p>
-            <p><strong>Temperature:</strong> <span id="temperature">9</span>&deg;C</p>
-            <p><strong>Conditions:</strong> Partly cloudy</p>
-            <p><strong>Wind:</strong> <span id="wind-speed">15</span> km/h</p>
-            <p><strong>Wind Chill:</strong> <span id="wind-chill">N/A</span></p>
-        </section>
+      <section class="weather" aria-labelledby="weather-heading">
+        <h2 id="weather-heading">Weather</h2>
+        <!-- SVG icon: shown on mobile only -->
+        <img
+          class="weather-icon"
+          src="images/weather.svg"
+          width="64"
+          height="64"
+          alt="Partly cloudy"
+        />
+        <p><strong>Location:</strong> Harare</p>
+        <p>
+          <strong>Temperature:</strong> <span id="temperature">9</span>&deg;C
+        </p>
+        <p><strong>Conditions:</strong> Partly cloudy</p>
+        <p><strong>Wind:</strong> <span id="wind-speed">15</span> km/h</p>
+        <p><strong>Wind Chill:</strong> <span id="wind-chill">N/A</span></p>
+      </section>
     </main>
 
     <footer>
-        <p>&copy; <span id="current-year"></span> Zimbabwe</p>
-        <p>Last modified: <span id="last-modified"></span></p>
+      <p>&copy; <span id="current-year"></span> Zimbabwe</p>
+      <p>Last modified: <span id="last-modified"></span></p>
     </footer>
-</body>
+  </body>
 </html>
