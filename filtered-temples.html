@@ -1,37 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Temple Album | Filtered Temples</title>
-  <meta name="author" content="Rufaro">
-  <meta name="description" content="A picture album of temples that you can filter by age and size.">
-  <link rel="stylesheet" href="styles/filtered-temples.css">
-  <script src="scripts/filtered-temples.js" defer></script>
-</head>
-<body>
-  <header class="site-header">
-    <h1>Temple Album</h1>
-    <nav aria-label="Main navigation">
-      <ul class="nav-list">
-        <li><a href="#" data-filter="home" aria-current="page">Home</a></li>
-        <li><a href="#" data-filter="old">Old</a></li>
-        <li><a href="#" data-filter="new">New</a></li>
-        <li><a href="#" data-filter="large">Large</a></li>
-        <li><a href="#" data-filter="small">Small</a></li>
-      </ul>
-    </nav>
-  </header>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Temple Album | Filtered Temples</title>
+    <meta name="author" content="Rufaro Chirume" />
+    <meta
+      name="description"
+      content="A picture album of temples that you can filter by age and size."
+    />
+    <link rel="stylesheet" href="styles/filtered-temples.css" />
+    <script src="scripts/filtered-temples.js" defer></script></head
+  >git
+  <body>
+    <header class="site-header">
+      <h1>Temple Album</h1>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#" data-filter="home" aria-current="page">Home</a></li>
+          <li><a href="#" data-filter="old">Old</a></li>
+          <li><a href="#" data-filter="new">New</a></li>
+          <li><a href="#" data-filter="large">Large</a></li>
+          <li><a href="#" data-filter="small">Small</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <main>
-    <h2 id="album-title">Home</h2>
-    <p id="album-count" aria-live="polite"></p>
-    <section id="temple-album" class="album" aria-labelledby="album-title"></section>
-  </main>
+    <main>
+      <h2 id="album-title">Home</h2>
+      <p id="album-count" aria-live="polite"></p>
+      <section
+        id="temple-album"
+        class="album"
+        aria-labelledby="album-title"
+      ></section>
+    </main>
 
-  <footer class="site-footer">
-    <p>&copy; <span id="current-year"></span> Temple Album</p>
-    <p id="last-modified"></p>
-  </footer>
-</body>
+    <footer class="site-footer">
+      <p>&copy; <span id="current-year"></span> Temple Album</p>
+      <p id="last-modified"></p>
+    </footer>
+  </body>
 </html>
