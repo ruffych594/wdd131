@@ -50,7 +50,7 @@ h2 {
   padding: 0.5rem 0.25rem;
   color: var(--white);
   text-decoration: none;
-  border-bottom: 3px solid transparent;
+  border-bottom: 3px solid var(--navy);
 }
 
 .nav-list a:hover,
@@ -114,4 +114,33 @@ main h2 {
 
 .site-footer p {
   margin: 0.25rem 0;
+}
+
+/* ---------- Tablet and larger screens ---------- */
+@media (min-width: 48em) {
+  .site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 2rem;
+  }
+
+  .site-header h1 {
+    margin: 0;
+  }
+
+  main {
+    padding: 2rem;
+  }
+
+  .album {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ---------- Wide desktop screens ---------- */
+@media (min-width: 70em) {
+  .album {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
