@@ -1,0 +1,314 @@
+/* Business Data Insights — WDD 131 site plan */
+:root {
+  --navy-blue: #123047;
+  --teal: #20B2AA;
+  --light-background: #F4F7FA;
+  --white: #FFFFFF;
+  --body-text: #263746;
+  --border: #D6E0E8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--light-background);
+  color: var(--body-text);
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: 1.7;
+}
+
+.site-header {
+  padding: 2rem 1rem;
+  background: var(--navy-blue);
+  color: var(--white);
+  text-align: center;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.logo {
+  display: grid;
+  place-items: center;
+  width: 58px;
+  height: 58px;
+  flex-shrink: 0;
+  border: 2px solid var(--teal);
+  border-radius: 12px;
+  background: var(--white);
+  color: var(--navy-blue);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.logo-large {
+  width: 76px;
+  height: 76px;
+  font-size: 1.2rem;
+}
+
+.eyebrow {
+  margin: 0;
+  color: #BDEFEA;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--navy-blue);
+  font-family: "Poppins", sans-serif;
+  line-height: 1.3;
+}
+
+.site-header h1 {
+  margin: 0.2rem 0;
+  color: var(--white);
+  font-size: clamp(1.5rem, 4vw, 2.4rem);
+}
+
+.tagline {
+  margin: 1rem 0 0;
+  color: #E4F3F5;
+}
+
+.page-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.25rem;
+  padding: 0.8rem 1rem;
+  background: var(--teal);
+}
+
+.page-nav a {
+  padding: 0.45rem 0.7rem;
+  border-radius: 4px;
+  color: #082C38;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.page-nav a:hover,
+.page-nav a:focus {
+  background: var(--navy-blue);
+  color: var(--white);
+}
+
+main {
+  width: min(100% - 2rem, 960px);
+  margin: 2rem auto;
+}
+
+.plan-section {
+  margin-bottom: 1.5rem;
+  padding: clamp(1rem, 3vw, 2rem);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--white);
+  box-shadow: 0 3px 12px rgb(18 48 71 / 6%);
+}
+
+.plan-section h2 {
+  margin-top: 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--teal);
+}
+
+.plan-section h3 {
+  margin-bottom: 0.4rem;
+}
+
+.logo-explanation {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+  background: var(--light-background);
+}
+
+.scenario-list {
+  padding-left: 1.4rem;
+}
+
+.scenario-list li {
+  margin: 0.5rem 0;
+}
+
+.color-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 1rem;
+}
+
+.color-card {
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.color-card h3,
+.color-card p {
+  margin-right: 0.8rem;
+  margin-left: 0.8rem;
+}
+
+.color-card h3 {
+  font-size: 1rem;
+}
+
+.swatch {
+  height: 85px;
+}
+
+.navy-swatch {
+  background: var(--navy-blue);
+}
+
+.teal-swatch {
+  background: var(--teal);
+}
+
+.light-swatch {
+  border-bottom: 1px solid var(--border);
+  background: var(--light-background);
+}
+
+.font-example {
+  margin: 1rem 0;
+  padding: 1rem;
+  border-left: 4px solid var(--teal);
+  background: var(--light-background);
+}
+
+.poppins-example {
+  font-family: "Poppins", sans-serif;
+}
+
+.opensans-example {
+  font-family: "Open Sans", sans-serif;
+}
+
+.wireframe {
+  margin: 1rem auto 2rem;
+  padding: 0.6rem;
+  border: 2px dashed var(--navy-blue);
+  border-radius: 8px;
+  background: #EAF0F4;
+  color: var(--navy-blue);
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+.mobile-wireframe {
+  max-width: 320px;
+}
+
+.wf-header,
+.wf-nav,
+.wf-hero,
+.wf-block,
+.wf-footer {
+  margin: 0.45rem 0;
+  padding: 0.8rem 0.5rem;
+  border: 1px solid var(--navy-blue);
+  border-radius: 5px;
+  background: var(--white);
+}
+
+.wf-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 0.5rem;
+  background: var(--navy-blue);
+  color: var(--white);
+  font-weight: 700;
+}
+
+.wf-header span {
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.wf-nav {
+  background: var(--teal);
+  font-weight: 700;
+}
+
+.wf-hero {
+  display: grid;
+  min-height: 105px;
+  align-content: center;
+  gap: 0.3rem;
+  background: #D7F2EF;
+}
+
+.wf-hero span {
+  font-size: 0.85rem;
+}
+
+.wf-block {
+  min-height: 72px;
+  display: grid;
+  place-items: center;
+}
+
+.wf-footer {
+  background: var(--navy-blue);
+  color: var(--white);
+}
+
+.wf-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.site-footer {
+  padding: 1.5rem 1rem;
+  background: var(--navy-blue);
+  color: var(--white);
+  text-align: center;
+}
+
+.site-footer p {
+  margin: 0.25rem 0;
+}
+
+@media (max-width: 560px) {
+  .brand {
+    flex-direction: column;
+  }
+
+  .page-nav {
+    align-items: stretch;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .logo-explanation {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .desktop-wireframe .wf-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .wf-header span {
+    display: none;
+  }
+}
