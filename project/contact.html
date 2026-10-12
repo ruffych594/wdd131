@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Business Data Insights to suggest a topic, ask a question about small business data analysis or tell us which guides you would like to see next.">
+  <meta name="author" content="Rufaro Chirume">
+  <title>Contact | Business Data Insights</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&amp;family=Poppins:wght@500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+  <script src="scripts/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">
+        <span class="logo" aria-hidden="true">BDI</span>
+        <span class="brand-name">Business Data Insights</span>
+      </a>
+      <button type="button" id="menu-button" class="menu-button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="basics.html">Data Basics</a></li>
+          <li><a href="metrics.html">Metrics</a></li>
+          <li><a href="tools.html">Tools</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-intro">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <p>Tell us about your business and which topics you would like explained. Your suggestions help decide what the site covers next.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <form action="thanks.html" method="get" class="panel">
+          <p class="form-note"><span class="req" aria-hidden="true">*</span> Required field</p>
+
+          <div class="field">
+            <label for="fullname">Your name <span class="req">* <span class="req-text">(Required)</span></span></label>
+            <input type="text" id="fullname" name="fullname" autocomplete="name" required>
+          </div>
+
+          <div class="field">
+            <label for="email">Email address <span class="req">* <span class="req-text">(Required)</span></span></label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+          </div>
+
+          <div class="field">
+            <label for="businesstype">Type of business <span class="req">* <span class="req-text">(Required)</span></span></label>
+            <select id="businesstype" name="businesstype" required>
+              <option value="" disabled selected>Select a business type ...</option>
+              <option value="retail shop">Retail shop</option>
+              <option value="restaurant or cafe">Restaurant or cafe</option>
+              <option value="online store">Online store</option>
+              <option value="service business">Service business</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <fieldset>
+            <legend>Size of your team <span class="req">* <span class="req-text">(Required)</span></span></legend>
+            <div class="option">
+              <input type="radio" id="team-solo" name="teamsize" value="just me" required>
+              <label for="team-solo">Just me</label>
+            </div>
+            <div class="option">
+              <input type="radio" id="team-small" name="teamsize" value="2 to 10 people" required>
+              <label for="team-small">2 to 10 people</label>
+            </div>
+            <div class="option">
+              <input type="radio" id="team-large" name="teamsize" value="11 or more people" required>
+              <label for="team-large">11 or more people</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Which topics would you like covered? <em>(Check all that apply)</em></legend>
+            <div class="option">
+              <input type="checkbox" id="topic-sales" name="topics" value="sales analysis">
+              <label for="topic-sales">Sales analysis</label>
+            </div>
+            <div class="option">
+              <input type="checkbox" id="topic-customers" name="topics" value="customer analysis">
+              <label for="topic-customers">Customer analysis</label>
+            </div>
+            <div class="option">
+              <input type="checkbox" id="topic-profit" name="topics" value="profit and costs">
+              <label for="topic-profit">Profit and costs</label>
+            </div>
+            <div class="option">
+              <input type="checkbox" id="topic-charts" name="topics" value="charts and reports">
+              <label for="topic-charts">Charts and reports</label>
+            </div>
+          </fieldset>
+
+          <div class="field">
+            <label for="message">Your message <span class="req">* <span class="req-text">(Required)</span></span></label>
+            <textarea id="message" name="message" rows="5" maxlength="500" required></textarea>
+          </div>
+
+          <button type="submit" class="button">Send request</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="currentyear"></span> Rufaro Chirume | Business Data Insights</p>
+    <p>Last Modification: <span id="lastModified"></span></p>
+    <p><a href="references.html">References</a></p>
+  </footer>
+</body>
+</html>

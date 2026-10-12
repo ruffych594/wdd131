@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" font-family="Arial, sans-serif" font-size="14">
+  <rect width="640" height="360" fill="#FFFFFF"/>
+  <text x="320" y="26" text-anchor="middle" font-size="18" font-weight="700" fill="#123047">Sunrise Bakery monthly sales ($ thousands)</text>
+  <g stroke="#D6E0E8" stroke-width="1">
+    <line x1="70" y1="300" x2="610" y2="300"/>
+    <line x1="70" y1="235" x2="610" y2="235"/>
+    <line x1="70" y1="170" x2="610" y2="170"/>
+    <line x1="70" y1="105" x2="610" y2="105"/>
+    <line x1="70" y1="40" x2="610" y2="40"/>
+  </g>
+  <g fill="#3D4F5C" text-anchor="end">
+    <text x="60" y="305">0</text>
+    <text x="60" y="240">2</text>
+    <text x="60" y="175">4</text>
+    <text x="60" y="110">6</text>
+    <text x="60" y="45">8</text>
+  </g>
+  <polyline points="100,163.5 190,144 280,153.8 370,118 460,101.8 550,75.8" fill="none" stroke="#20B2AA" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+  <g fill="#123047">
+    <circle cx="100" cy="163.5" r="6"/>
+    <circle cx="190" cy="144" r="6"/>
+    <circle cx="280" cy="153.8" r="6"/>
+    <circle cx="370" cy="118" r="6"/>
+    <circle cx="460" cy="101.8" r="6"/>
+    <circle cx="550" cy="75.8" r="6"/>
+  </g>
+  <g fill="#123047" font-weight="700" text-anchor="middle">
+    <text x="100" y="148">4.2</text>
+    <text x="190" y="128">4.8</text>
+    <text x="280" y="138">4.5</text>
+    <text x="370" y="102">5.6</text>
+    <text x="460" y="86">6.1</text>
+    <text x="550" y="60">6.9</text>
+  </g>
+  <g fill="#3D4F5C" text-anchor="middle">
+    <text x="100" y="324">Jan</text>
+    <text x="190" y="324">Feb</text>
+    <text x="280" y="324">Mar</text>
+    <text x="370" y="324">Apr</text>
+    <text x="460" y="324">May</text>
+    <text x="550" y="324">Jun</text>
+  </g>
+</svg>

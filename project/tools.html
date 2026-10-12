@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Free small business tools: an interactive profit margin calculator that saves your last result, and a short quiz to test what you know about key metrics.">
+  <meta name="author" content="Rufaro Chirume">
+  <title>Tools | Business Data Insights</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&amp;family=Poppins:wght@500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+  <script src="scripts/main.js" defer></script>
+  <script src="scripts/tools.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">
+        <span class="logo" aria-hidden="true">BDI</span>
+        <span class="brand-name">Business Data Insights</span>
+      </a>
+      <button type="button" id="menu-button" class="menu-button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="basics.html">Data Basics</a></li>
+          <li><a href="metrics.html">Metrics</a></li>
+          <li><a href="tools.html" aria-current="page">Tools</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-intro">
+      <div class="container">
+        <h1>Interactive Tools</h1>
+        <p>Practice what you have learned. Work out your profit margin with the calculator, then test your knowledge of the key metrics with a short quiz.</p>
+      </div>
+    </section>
+
+    <section id="calculator" class="section">
+      <div class="container">
+        <h2>Profit margin calculator</h2>
+        <p>Profit margin is the share of your revenue that you keep as profit. Enter your revenue and your total costs for the same period, such as one month. For example, a shop with $6,900 in revenue and $5,600 in costs keeps about 18.8 percent.</p>
+        <form id="margin-form" class="panel">
+          <p class="form-note"><span class="req" aria-hidden="true">*</span> Required field</p>
+          <div class="field">
+            <label for="revenue">Total revenue in dollars <span class="req">* <span class="req-text">(Required)</span></span></label>
+            <input type="number" id="revenue" name="revenue" min="0" step="0.01" inputmode="decimal" required>
+          </div>
+          <div class="field">
+            <label for="costs">Total costs in dollars <span class="req">* <span class="req-text">(Required)</span></span></label>
+            <input type="number" id="costs" name="costs" min="0" step="0.01" inputmode="decimal" required>
+          </div>
+          <button type="submit" class="button">Calculate margin</button>
+        </form>
+        <div id="margin-result" class="result" role="status"></div>
+        <p id="last-result" class="saved-note"></p>
+      </div>
+    </section>
+
+    <section id="quiz" class="section section-alt">
+      <div class="container">
+        <h2>Key metrics quiz</h2>
+        <p>Answer all five questions, then select Check answers. Your best score is saved on this device.</p>
+        <form id="quiz-form" class="panel">
+          <div id="quiz-questions"></div>
+          <p class="button-row">
+            <button type="submit" class="button">Check answers</button>
+            <button type="reset" class="button button-outline">Start over</button>
+          </p>
+        </form>
+        <div id="quiz-result" class="result" role="status"></div>
+        <p id="best-score" class="saved-note"></p>
+        <noscript>
+          <p>The quiz needs JavaScript. Please turn it on to take the quiz.</p>
+        </noscript>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="currentyear"></span> Rufaro Chirume | Business Data Insights</p>
+    <p>Last Modification: <span id="lastModified"></span></p>
+    <p><a href="references.html">References</a></p>
+  </footer>
+</body>
+</html>

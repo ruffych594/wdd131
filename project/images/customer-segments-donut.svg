@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" font-family="Arial, sans-serif" font-size="16">
+  <rect width="400" height="400" fill="#FFFFFF"/>
+  <g fill="none" stroke-width="50" transform="rotate(-90 200 150)">
+    <circle cx="200" cy="150" r="90" stroke="#123047" stroke-dasharray="282.74 565.49" stroke-dashoffset="0"/>
+    <circle cx="200" cy="150" r="90" stroke="#20B2AA" stroke-dasharray="197.92 565.49" stroke-dashoffset="-282.74"/>
+    <circle cx="200" cy="150" r="90" stroke="#F2B84B" stroke-dasharray="84.82 565.49" stroke-dashoffset="-480.66"/>
+  </g>
+  <text x="200" y="146" text-anchor="middle" font-size="16" font-weight="700" fill="#123047">Customer</text>
+  <text x="200" y="166" text-anchor="middle" font-size="16" font-weight="700" fill="#123047">groups</text>
+  <rect x="110" y="288" width="18" height="18" fill="#123047"/>
+  <text x="138" y="303" fill="#1F2D3A">Returning customers: 50%</text>
+  <rect x="110" y="318" width="18" height="18" fill="#20B2AA"/>
+  <text x="138" y="333" fill="#1F2D3A">New customers: 35%</text>
+  <rect x="110" y="348" width="18" height="18" fill="#F2B84B"/>
+  <text x="138" y="363" fill="#1F2D3A">Wholesale customers: 15%</text>
+</svg>

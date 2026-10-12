@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" font-family="Arial, sans-serif" font-size="14">
+  <rect width="640" height="360" fill="#FFFFFF"/>
+  <text x="320" y="26" text-anchor="middle" font-size="18" font-weight="700" fill="#123047">Sunrise Bakery revenue by product, June</text>
+  <g stroke="#D6E0E8" stroke-width="1">
+    <line x1="80" y1="300" x2="610" y2="300"/>
+    <line x1="80" y1="226.7" x2="610" y2="226.7"/>
+    <line x1="80" y1="153.3" x2="610" y2="153.3"/>
+    <line x1="80" y1="80" x2="610" y2="80"/>
+  </g>
+  <g fill="#3D4F5C" text-anchor="end">
+    <text x="70" y="305">$0</text>
+    <text x="70" y="231">$1,000</text>
+    <text x="70" y="158">$2,000</text>
+    <text x="70" y="85">$3,000</text>
+  </g>
+  <rect x="110" y="109.3" width="80" height="190.7" fill="#123047"/>
+  <rect x="230" y="153.3" width="80" height="146.7" fill="#20B2AA"/>
+  <rect x="350" y="197.3" width="80" height="102.7" fill="#123047"/>
+  <rect x="470" y="234" width="80" height="66" fill="#20B2AA"/>
+  <g fill="#123047" font-weight="700" text-anchor="middle">
+    <text x="150" y="100">$2,600</text>
+    <text x="270" y="144">$2,000</text>
+    <text x="390" y="188">$1,400</text>
+    <text x="510" y="225">$900</text>
+  </g>
+  <g fill="#3D4F5C" text-anchor="middle">
+    <text x="150" y="324">Bread</text>
+    <text x="270" y="324">Cakes</text>
+    <text x="390" y="324">Pastries</text>
+    <text x="510" y="324">Drinks</text>
+  </g>
+</svg>

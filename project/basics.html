@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn the basics of small business data analysis: customer data, sales data, product data and a simple four-step process for turning numbers into decisions.">
+  <meta name="author" content="Rufaro Chirume">
+  <title>Data Basics | Business Data Insights</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&amp;family=Poppins:wght@500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+  <script src="scripts/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">
+        <span class="logo" aria-hidden="true">BDI</span>
+        <span class="brand-name">Business Data Insights</span>
+      </a>
+      <button type="button" id="menu-button" class="menu-button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="basics.html" aria-current="page">Data Basics</a></li>
+          <li><a href="metrics.html">Metrics</a></li>
+          <li><a href="tools.html">Tools</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-intro">
+      <div class="container">
+        <h1>Data Basics for Small Businesses</h1>
+        <p>You do not need advanced software or a statistics degree to use data well. You need good questions, a few clear numbers and the habit of checking them regularly. This page covers the three kinds of data every small business already has: customers, sales and products.</p>
+      </div>
+    </section>
+
+    <section id="customers" class="section">
+      <div class="container">
+        <h2>Know your customers</h2>
+        <p>Every sale tells you something about the person who made it. Customer data answers questions such as how often people buy, how much they spend and whether they return. Businesses often find that a small group of loyal customers brings in most of their income, which makes keeping them happy very valuable.</p>
+        <figure>
+          <img src="images/customer-segments-donut.svg" alt="Donut chart of customer groups: 50 percent returning customers, 35 percent new customers and 15 percent wholesale customers" width="400" height="400" loading="lazy">
+          <figcaption>Example: half of the bakery's customers are returning customers.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="sales" class="section section-alt">
+      <div class="container">
+        <h2>Track your sales</h2>
+        <p>Sales data is the easiest place to start because most businesses already record it. Write down the number of orders and the total revenue for each month, then work out the average order value by dividing revenue by orders. Watching these three numbers together shows whether growth comes from more customers, bigger orders or both.</p>
+        <div class="table-wrap" role="region" aria-label="Monthly sales table" tabindex="0">
+          <table>
+            <caption>Sunrise Bakery sales, January to June</caption>
+            <thead>
+              <tr>
+                <th scope="col">Month</th>
+                <th scope="col">Orders</th>
+                <th scope="col">Revenue</th>
+                <th scope="col">Average order value</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">January</th><td>120</td><td>$4,200</td><td>$35.00</td></tr>
+              <tr><th scope="row">February</th><td>128</td><td>$4,800</td><td>$37.50</td></tr>
+              <tr><th scope="row">March</th><td>118</td><td>$4,500</td><td>$38.14</td></tr>
+              <tr><th scope="row">April</th><td>140</td><td>$5,600</td><td>$40.00</td></tr>
+              <tr><th scope="row">May</th><td>148</td><td>$6,100</td><td>$41.22</td></tr>
+              <tr><th scope="row">June</th><td>160</td><td>$6,900</td><td>$43.13</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>In March the bakery had fewer orders than in February, yet the average order value still rose. That tells the owner that customers were spending more each visit, even though fewer of them came.</p>
+      </div>
+    </section>
+
+    <section id="products" class="section">
+      <div class="container">
+        <h2>Compare your products</h2>
+        <p>Product data shows where your money really comes from. A product that sells often but earns little profit may not deserve the shelf space it takes. A product that sells slowly but earns a high profit may deserve more promotion.</p>
+        <figure>
+          <img src="images/product-revenue-bar.svg" alt="Bar chart of Sunrise Bakery revenue by product in June: bread $2,600, cakes $2,000, pastries $1,400 and drinks $900" width="640" height="360" loading="lazy">
+          <figcaption>Example: June revenue by product for the fictional bakery.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="process" class="section section-alt">
+      <div class="container">
+        <h2>A simple four-step process</h2>
+        <ol class="steps">
+          <li><strong>Ask a question.</strong> For example, "Which product should I promote this month?"</li>
+          <li><strong>Collect the data.</strong> Gather only the numbers that help answer that question.</li>
+          <li><strong>Analyze it.</strong> Compare months, products or customer groups, and use a chart if it helps.</li>
+          <li><strong>Act and check.</strong> Make one change, then look at the numbers again to see whether it worked.</li>
+        </ol>
+        <aside class="callout">
+          <h3>Tip for beginners</h3>
+          <p>Start with one question and two or three numbers. A small, clear answer is more useful than a large report that nobody reads.</p>
+        </aside>
+        <p>Ready for the next step? Browse the <a href="metrics.html">key business metrics</a> or practice with the <a href="tools.html">profit margin calculator</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="currentyear"></span> Rufaro Chirume | Business Data Insights</p>
+    <p>Last Modification: <span id="lastModified"></span></p>
+    <p><a href="references.html">References</a></p>
+  </footer>
+</body>
+</html>

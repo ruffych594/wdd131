@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Business Data Insights teaches small business owners how to use data to understand customers, sales, products and profit, with free tools and plain-language guides.">
+  <meta name="author" content="Rufaro Chirume">
+  <title>Business Data Insights | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&amp;family=Poppins:wght@500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+  <script src="scripts/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">
+        <span class="logo" aria-hidden="true">BDI</span>
+        <span class="brand-name">Business Data Insights</span>
+      </a>
+      <button type="button" id="menu-button" class="menu-button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="basics.html">Data Basics</a></li>
+          <li><a href="metrics.html">Metrics</a></li>
+          <li><a href="tools.html">Tools</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Turn business data into better decisions</h1>
+          <p>Small businesses collect data every day: sales, customers, products and costs. Business Data Insights explains how to read that data in plain language, so you can spot what is working and fix what is not.</p>
+          <p class="button-row">
+            <a class="button" href="tools.html">Try the profit margin calculator</a>
+            <a class="button button-outline" href="metrics.html">Explore key metrics</a>
+          </p>
+        </div>
+        <img src="images/hero-dashboard.svg" alt="Illustration of a simple business dashboard with a bar chart, a line chart and a profit figure" width="640" height="400">
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>What you will learn</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Understand your customers</h3>
+            <p>Find out who buys from you, how often they come back and how much they spend each time.</p>
+            <a href="basics.html#customers">Read about customers</a>
+          </article>
+          <article class="card">
+            <h3>Analyze sales and products</h3>
+            <p>See which products earn the most money and how your sales change from month to month.</p>
+            <a href="basics.html#sales">Read about sales</a>
+          </article>
+          <article class="card">
+            <h3>Measure performance</h3>
+            <p>Meet the key business metrics, such as profit margin and average order value, and learn what they tell you.</p>
+            <a href="metrics.html">Explore the metrics</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <h2>See the story in your sales</h2>
+        <p>Sunrise Bakery is a fictional example shop used throughout this site. Its monthly sales rose from $4,200 in January to $6,900 in June, with one small dip in March. A chart makes that pattern easy to see, while a long list of numbers would hide it.</p>
+        <figure>
+          <img src="images/monthly-sales-line.svg" alt="Line chart of Sunrise Bakery monthly sales in thousands of dollars: January 4.2, February 4.8, March 4.5, April 5.6, May 6.1, June 6.9" width="640" height="360" loading="lazy">
+          <figcaption>Example: monthly sales for a fictional bakery, January to June.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Start in three steps</h2>
+        <ol class="steps">
+          <li>Read <a href="basics.html">Data Basics</a> to learn what business data is and where to find it.</li>
+          <li>Browse the <a href="metrics.html">key metrics</a> and save the ones that matter to your business.</li>
+          <li>Practice with the <a href="tools.html">calculator and quiz</a>, then <a href="contact.html">tell us what to cover next</a>.</li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="currentyear"></span> Rufaro Chirume | Business Data Insights</p>
+    <p>Last Modification: <span id="lastModified"></span></p>
+    <p><a href="references.html">References</a></p>
+  </footer>
+</body>
+</html>

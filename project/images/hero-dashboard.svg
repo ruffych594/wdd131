@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" font-family="Arial, sans-serif">
+  <rect width="640" height="400" rx="18" fill="#FFFFFF"/>
+  <rect width="640" height="56" rx="18" fill="#E3ECF3"/>
+  <rect y="30" width="640" height="26" fill="#E3ECF3"/>
+  <text x="24" y="36" font-size="20" font-weight="700" fill="#123047">Sunrise Bakery: June overview</text>
+  <rect x="24" y="76" width="180" height="100" rx="10" fill="#123047"/>
+  <text x="40" y="106" font-size="14" fill="#FFFFFF">Profit margin</text>
+  <text x="40" y="150" font-size="38" font-weight="700" fill="#FFFFFF">18.8%</text>
+  <rect x="230" y="76" width="180" height="100" rx="10" fill="#E3ECF3"/>
+  <text x="246" y="106" font-size="14" fill="#123047">Revenue</text>
+  <text x="246" y="150" font-size="34" font-weight="700" fill="#123047">$6,900</text>
+  <rect x="436" y="76" width="180" height="100" rx="10" fill="#E3ECF3"/>
+  <text x="452" y="106" font-size="14" fill="#123047">Orders</text>
+  <text x="452" y="150" font-size="34" font-weight="700" fill="#123047">160</text>
+  <line x1="24" y1="370" x2="330" y2="370" stroke="#5B7083" stroke-width="2"/>
+  <rect x="44" y="230" width="48" height="140" fill="#123047"/>
+  <rect x="112" y="262" width="48" height="108" fill="#20B2AA"/>
+  <rect x="180" y="295" width="48" height="75" fill="#123047"/>
+  <rect x="248" y="322" width="48" height="48" fill="#20B2AA"/>
+  <text x="24" y="206" font-size="14" font-weight="700" fill="#123047">Revenue by product</text>
+  <line x1="350" y1="370" x2="616" y2="370" stroke="#5B7083" stroke-width="2"/>
+  <polyline points="366,328 414,307 462,317 510,279 558,262 606,234" fill="none" stroke="#20B2AA" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="366" cy="328" r="6" fill="#123047"/>
+  <circle cx="414" cy="307" r="6" fill="#123047"/>
+  <circle cx="462" cy="317" r="6" fill="#123047"/>
+  <circle cx="510" cy="279" r="6" fill="#123047"/>
+  <circle cx="558" cy="262" r="6" fill="#123047"/>
+  <circle cx="606" cy="234" r="6" fill="#123047"/>
+  <text x="350" y="206" font-size="14" font-weight="700" fill="#123047">Monthly sales trend</text>
+</svg>
